@@ -25,6 +25,11 @@ void Thread::detach()
     this->threadPointer->detach();
 }
 
+thread::id Thread::getThreadId()
+{
+    return std::this_thread::get_id();
+}
+
 void Thread::main()
 {
     // todo

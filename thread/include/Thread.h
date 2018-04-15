@@ -10,6 +10,7 @@ class Thread
     public:
         Thread();
         void run();
+        thread::id getThreadId();
         virtual void main();
         virtual void join();
         virtual void detach();
