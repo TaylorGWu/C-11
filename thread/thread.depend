@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1523782978 source:/home/taylor/code/CandC++/CodeBlockWorkSpace/C-11/thread/main.cpp
+	<iostream>
+
+1523783269 source:/home/taylor/code/CandC++/CodeBlockWorkSpace/C-11/thread/src/Thread.cpp
+	"Thread.h"
+
+1523783560 /home/taylor/code/CandC++/CodeBlockWorkSpace/C-11/thread/include/Thread.h
+	<thread>
+
